@@ -1,0 +1,35 @@
+{
+  "code": "00",
+  "message": "OK",
+  "content": {
+    "balanceAmount": "80,00",
+    "balanceDate": "09/10/2026",
+    "currentPaymentModeCode": "N",
+    "nextDueDate": null,
+    "nextDueAmount": "0,00",
+    "monthlyPaymentAmount": "25,00",
+    "monthlyPaymentComputationCode": "CALC_365J",
+    "paymentModesList": {
+      "monthlyPayment": true,
+      "directDebitPayment": true,
+      "etip": false,
+      "bankCardPayment": true,
+      "tipi": false
+    },
+    "paymentModesTitleCode": "05",
+    "infosBlockCode": null,
+    "grayBlock": {
+      "titleCode": "08",
+      "content": {
+        "amount": null,
+        "date": null
+      }
+    },
+    "contractBlock": {
+      "name": "Contrat de démonstration",
+      "siteAddress": "1 rue Exemple, 75000 Ville Exemple",
+      "fullReference": "98-0000000001"
+    },
+    "hasEtipSignedValidMandate": false
+  }
+}
